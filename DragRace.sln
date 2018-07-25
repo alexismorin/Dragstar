@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DragRace", "Assembly-CSharp.csproj", "{D4063C33-8227-9879-F56C-E2AE94D86888}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D4063C33-8227-9879-F56C-E2AE94D86888}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4063C33-8227-9879-F56C-E2AE94D86888}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4063C33-8227-9879-F56C-E2AE94D86888}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4063C33-8227-9879-F56C-E2AE94D86888}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
