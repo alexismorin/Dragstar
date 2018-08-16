@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{D4063C33-8227-9879-F56C-E2AE94D86888}</ProjectGuid>
+    <ProjectGuid>{00E67A36-4164-CC5C-8456-B4A23F0DAA69}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -53,28 +53,44 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\GenerateQueen.cs" />
-     <Compile Include="Assets\InstantRace.cs" />
+     <Compile Include="Assets\Scripts\GenerateQueen.cs" />
+     <Compile Include="Assets\Scripts\InstantRace.cs" />
+     <Compile Include="Assets\Scripts\World\FlickerEmissive.cs" />
+     <Compile Include="Assets\Shaders\Tube\Tube.cs" />
+     <None Include="Assets\Shaders\Dither-Alpha\DitherFunctions\Shaders\Dithered Transparency.shader" />
      <None Include="Assets\Loadable\Names\Queens\Names.txt" />
+     <None Include="Assets\FbxExporters\RELEASE_NOTES.txt" />
+     <None Include="Assets\Shaders\Dither-Alpha\DitherFunctions\Shaders\Dithered Texture Transparency.shader" />
+     <None Include="Assets\Shaders\Dither-Alpha\DitherFunctions\Shaders\Dither Functions.cginc" />
+     <None Include="Assets\FbxExporters\README.txt" />
      <None Include="Assets\Loadable\Names\Queens\Surnames.txt" />
+     <None Include="Assets\FbxExporters\LICENSE.txt" />
+     <None Include="Assets\Shaders\Tube\Shader\TubeFx.shader" />
      <None Include="Assets\Loadable\Names\Queens\Nicknames.txt" />
+     <None Include="Assets\Shaders\Dither-Alpha\DitherFunctions\Shaders\Dithered Transparency Shadow.shader" />
+ <Reference Include="Cinemachine">
+ <HintPath>C:/Users/alexi/Documents/Unity Projects/DragRace/Dragstar/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEditor.StandardEvents">
- <HintPath>C:/Users/alexi/Documents/Unity Projects/DragRace/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+ <HintPath>C:/Users/alexi/Documents/Unity Projects/DragRace/Dragstar/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>C:/Users/alexi/Documents/Unity Projects/DragRace/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ <HintPath>C:/Users/alexi/Documents/Unity Projects/DragRace/Dragstar/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.PackageManagerUI.Editor">
- <HintPath>C:/Users/alexi/Documents/Unity Projects/DragRace/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+ <HintPath>C:/Users/alexi/Documents/Unity Projects/DragRace/Dragstar/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
  </Reference>
  <Reference Include="com.unity.postprocessing.Editor">
- <HintPath>C:/Users/alexi/Documents/Unity Projects/DragRace/Library/ScriptAssemblies/com.unity.postprocessing.Editor.dll</HintPath>
+ <HintPath>C:/Users/alexi/Documents/Unity Projects/DragRace/Dragstar/Library/ScriptAssemblies/com.unity.postprocessing.Editor.dll</HintPath>
  </Reference>
  <Reference Include="com.unity.postprocessing.Runtime">
- <HintPath>C:/Users/alexi/Documents/Unity Projects/DragRace/Library/ScriptAssemblies/com.unity.postprocessing.Runtime.dll</HintPath>
+ <HintPath>C:/Users/alexi/Documents/Unity Projects/DragRace/Dragstar/Library/ScriptAssemblies/com.unity.postprocessing.Runtime.dll</HintPath>
+ </Reference>
+ <Reference Include="com.unity.cinemachine.editor">
+ <HintPath>C:/Users/alexi/Documents/Unity Projects/DragRace/Dragstar/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
- <HintPath>C:/Users/alexi/Documents/Unity Projects/DragRace/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ <HintPath>C:/Users/alexi/Documents/Unity Projects/DragRace/Dragstar/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2018.2.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -270,6 +286,9 @@
  </Reference>
  <Reference Include="UnityEngine.SpatialTracking">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2018.2.0f2/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityFbxPrefab">
+ <HintPath>C:/Users/alexi/Documents/Unity Projects/DragRace/Dragstar/Assets/FbxExporters/UnityFbxPrefab.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Analytics">
  <HintPath>C:/Users/alexi/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/UnityEngine.Analytics.dll</HintPath>
